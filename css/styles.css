@@ -39,7 +39,6 @@
     --secondary-color-darkgrey: #4A4A4A;
     --secondary-color-lightgrey: #747272;
     --secondary-color-dark: #011F4A;
-
 }
 
 /* base */
@@ -155,23 +154,24 @@ ul .accent{
 .policy {
     color: var(--secondary-color-lightgrey);
     font-family: 'Roboto';
-    font-size: 22px;
+    font-size: 12px;
     line-height: 1.5;
     text-align: center;
 }
+
 /* footer */
 .footer-link{
     color: var(--primary-color-white);
+    text-decoration: none;
     font-family: 'Roboto';
-    font-size: 16px;
-    line-height: 1.1;
-    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .safe {
     color: var(--secondary-color-lightgrey);
+    text-decoration: none;
     font-family: 'Roboto';
     font-size: 13px;
     line-height: 1.1;
-    text-align: center;
 }
