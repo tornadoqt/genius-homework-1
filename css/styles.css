@@ -1,0 +1,177 @@
+/* play-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --primary-color-dark: #011C44;
+    --primary-color-light: #2B7FFF;
+    --primary-color-white: #FFFFFF;
+    --secondary-color-darkgrey: #4A4A4A;
+    --secondary-color-lightgrey: #747272;
+    --secondary-color-dark: #011F4A;
+
+}
+
+/* base */
+ul {
+    list-style-type: none;
+    color: var(--primary-color-dark);
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+ul .accent{
+    font-weight: 700;
+}
+
+/* Button */
+.button {
+    color: var(--primary-color-white);
+    background-color: var(--primary-color-light);
+    border: 2px solid var(--primary-color-light);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.button:hover {
+    color: var(--primary-color-dark);
+    background-color: transparent;
+}
+
+.button-signature{
+    color: var(--secondary-color-darkgrey);
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* head section */
+.link {
+    color: var(--primary-color-dark);
+    text-decoration: none;
+}
+
+.link .accent{
+    color: var(--primary-color-light);
+}
+
+/* hero section */
+.hero-title {
+    color: var(--primary-color-light);
+    font-family: 'Play';
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+/* offer section */
+.subhero-title {
+    color: var(--primary-color-dark);
+    font-family: 'Play';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.subhero-title .accent {
+    color: var(--primary-color-light);
+}
+
+.offer-text {
+    color: var(--primary-color-dark);
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* why us section */
+.section-title {
+    color: var(--primary-color-dark);
+    font-family: 'Play';
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.section-title .accent{
+    color: var(--primary-color-light);
+}
+.why-us-ul {
+    list-style-type: none;
+    color: var(--primary-color-dark);
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* find us section */
+.gift-title {
+    color: var(--primary-color-white);
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.gift-title .accent{
+    color: var(--primary-color-light);
+}
+
+.policy {
+    color: var(--secondary-color-lightgrey);
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+}
+/* footer */
+.footer-link{
+    color: var(--primary-color-white);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.safe {
+    color: var(--secondary-color-lightgrey);
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 1.1;
+    text-align: center;
+}
